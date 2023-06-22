@@ -14,6 +14,7 @@ def _as_list(func: Callable) -> Callable[[Callable, Iterable], list]:
 
 stdnamespace = {
     "rt": lambda a, b: a ** (1/b),
+    "rt": lambda a, b: a ** (1/b),
     "sqrt": lambda a: a ** (1/2),
     "cbrt": lambda a: a ** (1/3),
     "int": int,
