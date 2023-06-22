@@ -38,6 +38,11 @@ def branch(*values: Union[Number, Callable]) -> int:
         islice(values, 1, None, 2)
     )
 
+    pairs = zip(
+        islice(values, None, None, 2),
+        islice(values, 1, None, 2)
+    )
+
     for cond, callback in pairs:
         if cond:
             return callback()
