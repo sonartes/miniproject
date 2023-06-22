@@ -1,5 +1,6 @@
 limit_raw = input("Limit: ")
 limit = 0;
+limit = 0;
     get(map(
             (x) =
                 limit = (limit*10) + (x-48),
