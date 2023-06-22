@@ -2,6 +2,7 @@ uint8 = 2
 uint16 = 4
 uint32 = 8
 uint64 = 16
+uint64 = 16
 
 arrMake(size, bytesize) = malloc(size*bytesize)
 
